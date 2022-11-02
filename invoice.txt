@@ -1,0 +1,19 @@
+[Name of my Company]
+[Address of my Company]
+[kvk for my company]
+[btw-id for my company]
+[bankaccount]
+
+Concerning: <Invoice>
+
+Invoice ID: <invoice-id>
+Invoice date: <date>
+
+To:
+<receiving-party>
+
+Items:
+<line-items>
+
+Totals:
+<totals>
