@@ -1,0 +1,24 @@
+The main file (IvoicingApp) can be used commenting out the lines and execute them to perform the desired action.
+
+Files:
+
+CustomerDatabase = it reads the csv database of customer and performs a series of action
+                    like find a customer or add a new one it to the database
+
+CustomerData = is a subclass of customer database, it find a customer and its history
+                reading the csv database of invoices
+
+InvoiceData = generate the invoices asking the user to provide some info, it also use the
+              class Customer from CustomerData to get the info about customer from the customer database.
+              Once an invoice is create, the file stores its relevant information in the invoices database
+
+InvoiceDatabase = It read the invoices database and return a specific invoice using the
+                  Invoice class from InvoiceData
+
+Other than that, I've tried to explain what each file does in the comments,
+if you have any other questions please ask me.
+
+Moreover, since I have to study also for other exams I have not inserted the data relative to the
+[kvk for my company] and the [bankaccount] in the generation of the customers.
+However, in the file file CustomerDatabase is indicated where and how this can be done.
+If is needed I can add it and upload the other files this weekend.
